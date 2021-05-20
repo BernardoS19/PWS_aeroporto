@@ -1,0 +1,31 @@
+<?php use ArmoredCore\WebObjects\Layout;
+use ArmoredCore\WebObjects\URL;
+
+Layout::includeLayout('header') ?>
+
+<!-- container -->
+<div class="container">
+
+    <?php Layout::setSubViewContainer('titlecontainer'); ?>
+
+            <p>Use this view as your worksheet</p>
+
+
+            <h3>Use this space to echo your test models</h3>
+
+            <pre><code class="nohighlight">
+
+Code examples:
+
+<a href="<?= Url::toRoute('book/index')?>">link to BookController </a>
+<a href="<?= Url::toRoute('home/setsession') ?>">Put Object in session.</a>
+<a href="<?= Url::toRoute('home/showsession') ?>">Show Object in session.</a>
+<a href="<?= Url::toRoute('home/destroysession') ?>">Destroy session.</a>
+                </code></pre>
+    </article>
+        <!-- /Article -->
+
+    </div>
+</div>	<!-- /container -->
+
+<?php Layout::includeLayout('footer') ?>
