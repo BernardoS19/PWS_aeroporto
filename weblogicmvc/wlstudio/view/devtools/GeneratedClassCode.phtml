@@ -1,0 +1,48 @@
+<?php
+use ArmoredCore\WebObjects\Data;
+use ArmoredCore\WebObjects\Layout;
+use ArmoredCore\WebObjects\URL;
+use Nette\PhpGenerator\Printer;
+
+$code = Data::get('code');
+$printer = new Printer();
+
+Layout::includeLayout('header') ?>
+
+
+<!-- container -->
+<div class="container">
+
+    <?php Layout::setSubViewContainer('titlecontainer'); ?>
+
+    <pre><code><?=$printer->printNamespace($code)?></code></pre>
+
+    <div class="col-md-12 col-sm-12">
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+
+                <form method="get" action="<?=Url::toRoute('devtools/index')?>">
+                    <div class="top-margin">
+                        <small><i>Code Options</i></small>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-4 text-right">
+                            <button class="btn btn-action" type="submit" disabled>Save Controller File</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    </article>
+    <!-- /Article -->
+
+</div>
+
+</div>
+
+<?php Layout::includeLayout('footer') ?>
