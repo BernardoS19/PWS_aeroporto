@@ -1,0 +1,22 @@
+
+V0.91
+
+- PHP 7+
+- Code generator for Resource Controllers
+- \ArmoredCore\WebObjects\Debug class
+   Debug::dump
+   Debug::BarDump
+   Debug::log
+   Debug::fireLog
+   Debug::time
+- PhpActiveRecord now requires array in finders (ex: $record = new Record::find([$id]))
+
+- User configs changed to startup\Config
+
+- Carbon pre installed
+
+Next version:
+- FIX directory separators in MT5Forwarder & startup
+- Add Latte template Processor
+- Change ArmoredCore\WebObjects Namespace to WebObjects
+- Add framework bootstrap with items from server mod startup
