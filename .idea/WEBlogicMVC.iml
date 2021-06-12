@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Aura/Di" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Aura/Filter" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Aura/Includer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Dave1010/Hug" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Filisko/PDOplus" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Hoa/Consistency" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Hoa/Event" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Hoa/Exception" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Hoa/Protocol" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Hoa/Socket" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Hoa/Websocket" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Kdyby/Extension" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Netpromotion/Profiler" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Nette/Iterators" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Nette/PhpGenerator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Pd/Diagnostics" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/PetrKnap/Php" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Psr/Cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Psr/Http" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Psr/Hug" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Psr/Interop" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Stolz/Assets" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Symfony/Component" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Windwalker/Cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/legacy/Haanga" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/php-activerecord/examples" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/php-activerecord/lib" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/php-activerecord/test" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpFastCache/Bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpFastCache/Cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpFastCache/Core" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpFastCache/Drivers" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpFastCache/Entities" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpFastCache/Exceptions" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpFastCache/Proxy" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpFastCache/Util" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/tracy/tracy" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-diactoros" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/laminas/laminas-zendframework-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Nette/utils" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Nette/php-generator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/Symfony/polyfill-php80" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
